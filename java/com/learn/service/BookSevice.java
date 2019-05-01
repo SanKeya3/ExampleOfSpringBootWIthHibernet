@@ -15,8 +15,7 @@ public class BookSevice {
 	@Autowired
 	private CrudRepository<Book, Integer> cr;
  
-	
-	
+
 	/*@Autowired
 	private BookRepository bookRepository;*/
 	List<Book> booksList = new ArrayList<Book>();
